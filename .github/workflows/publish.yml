@@ -106,7 +106,7 @@ jobs:
           CONFIG_JSON=pubDomainList.json
           if [[ ! -f "$CONFIG_JSON" ]]; then
             curl -sSL \
-              https://raw.githubusercontent.com/Geonovum/respec-utils/master/src/autodeploy/config/pubDomainList.json \
+              https://raw.githubusercontent.com/Geonovum/docs.geostandaarden.nl/refs/heads/main/pubDomainList.json \
               -o "$CONFIG_JSON"
           fi
 
