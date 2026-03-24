@@ -150,7 +150,7 @@ De onderstaande figuur is een schematische weergave van de ondersteunde CRS-en b
 
 Het _toepassingsgebied_ en de _dimensie_ bepalen welke CRS-en bij aanlevering van geometrieën geldig zijn. Aan de ene kant bestaat er onderscheid in de _dimensie_ van geometrieën: sommige geometrieën zijn 2-dimensionaal, anderen 3-dimensionaal. Voor objecten gelden de volgende CRS-en: _**RD**_ en _**ETRS89**_.
 
-Er zijn verschillende realisaties van ETRS89 in omloop. Het [[EMSO]] volgt het [advies](https://docs.geostandaarden.nl/crs/crs/#realisaties-van-etrs89-en-evrs) van het _Regional Reference Frame Sub-Commission for Europe_ (EUREF) om de Nederlandse realisatie van **ETRS89** te gebruiken die is gekoppeld aan de **ETRF2000-realisatie**. Verder wordt bij aanlevering rekening gehouden met een **lijnlengte van maximaal 200 meter**. Dit besluit volgt het langelijnenadvies van de NSGI, dat is [overgenomen](https://docs.geostandaarden.nl/crs/crs/#vormvastheid) in [[gebruik-crs]] in verband met compatibiliteit met **RDNAPTRANS™**.
+Er zijn verschillende realisaties van ETRS89 in omloop. Wij volgen het [advies](https://docs.geostandaarden.nl/crs/crs/#realisaties-van-etrs89-en-evrs) van het _Regional Reference Frame Sub-Commission for Europe_ (EUREF) om de Nederlandse realisatie van **ETRS89** te gebruiken die is gekoppeld aan de **ETRF2000-realisatie**. Verder wordt bij aanlevering rekening gehouden met een **lijnlengte van maximaal 200 meter**. Dit besluit volgt het langelijnenadvies van de NSGI, dat is [overgenomen](https://docs.geostandaarden.nl/crs/crs/#vormvastheid) in [[gebruik-crs]] in verband met compatibiliteit met **RDNAPTRANS™**.
 
 Voor het CRS van **2D-geometrieen** gelden de volgende EPSG-codes:
 
