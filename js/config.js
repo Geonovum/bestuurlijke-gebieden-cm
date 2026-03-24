@@ -9,8 +9,8 @@ let respecConfig = {
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   //specStatus: "wv",                   // Werkversie
   // specStatus: "cv",               // Consultatieversie
-  specStatus: "vv",               // Versie ter vaststelling
-  //specStatus: "def",              // Vastgestelde versie
+  // specStatus: "vv",               // Versie ter vaststelling
+  specStatus: "def",              // Vastgestelde versie
   //specStatus: "basis",            // Basis Document
   
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
