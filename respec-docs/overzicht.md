@@ -12,7 +12,7 @@ Dit informatiemodel beschrijft *Bestuurlijke Gebieden*: de ruimtelijke gebieden 
 Dit hoofdstuk beschrijft de inhoud van het thema Bestuurlijke Gebieden.
 
 ### Bestuurlijke gebieden
-Er is een belangrijke relatie tussen een [regionaal openbaar lichaam](#informatiemodel_cim_bg_cm_domein_openbaar_lichaam_objecttype_regionaal_openbaar_lichaam) en een [bestuurlijk gebied](#informatiemodel_cim_bg_cm_domein_bestuurlijk_gebied_objecttype_bestuurlijk_gebied). In de bestuurlijke indeling van het Koninkrijk der Nederlanden is een regionaal openbaar lichaam een overheid die bepaalde taken uitvoert binnen een bepaald _ruimtelijk_ gebied. De belangrijkste regionale openbare lichamen zijn het Rijk, de provincies, de gemeenten en de waterschappen, maar ook veiligheidsregio's behoren hiertoe. Een bestuurlijk gebied is dan dat bepaalde ruimtelijk gebied waarover een regionaal openbaar lichaam bestuur uitoefent.
+Er is een belangrijke relatie tussen een [regionaal openbaar lichaam](#informatiemodel_cim_bg_domein_openbaar_lichaam_objecttype_regionaal_openbaar_lichaam) en een [bestuurlijk gebied](#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_bestuurlijk_gebied). In de bestuurlijke indeling van het Koninkrijk der Nederlanden is een regionaal openbaar lichaam een overheid die bepaalde taken uitvoert binnen een bepaald _ruimtelijk_ gebied. De belangrijkste regionale openbare lichamen zijn het Rijk, de provincies, de gemeenten en de waterschappen, maar ook veiligheidsregio's behoren hiertoe. Een bestuurlijk gebied is dan dat bepaalde ruimtelijk gebied waarover een regionaal openbaar lichaam bestuur uitoefent.
 
 #### Levenscyclus en tijdlijnen Bestuurlijk gebied
 
@@ -61,7 +61,7 @@ Regionale openbare lichamen hebben met elkaar gemeen dat ze een bestuurlijk gebi
 Een *bestuurlijk gebied*, ook wel bestuursgebied genoemd, is het grondgebied waarover het bestuursorgaan haar invloed uitoefent. Een bestuurlijk gebied is dus niet hetzelfde als het voor het gebied verantwoordelijke bestuur. Het _gebied_ en het _bestuur_ zijn weliswaar aan elkaar gerelateerd, maar hebben hun eigen unieke eigenschappen. Een bestuurlijk gebied heeft een ruimtelijke aanduiding in de vorm van een geometrie en kan ook een naam toegewezen krijgen. De naam waarmee men in het dagelijkse spraakgebruik het grondgebied associeert, is meestal de officiële naam van het gerelateerde openbaar lichaam, bijvoorbeeld 'Apeldoorn' of 'Zeeland'.
 
 #### Maritieme zones
-Een regionaal openbaar lichaam heeft vaak maar één bestuurlijk gebied. Een uitzondering hierop is het openbaar lichaam _Rijk_. Naast het _Landgebied_ bestuurt het Rijk ook vier gebieden op zee; zogenaamde maritieme zones. In totaal onderscheidt dit model vijf typen bestuurlijke gebieden die onder de bestuurlijke verantwoordelijkheid van het Rijk vallen.
+Een regionaal openbaar lichaam heeft vaak maar één bestuurlijk gebied. Een uitzondering hierop is het openbaar lichaam _Rijk_. Naast het _Landgebied_ bestuurt het Rijk ook vier typen gebieden op zee; zogenaamde maritieme zones. In totaal onderscheidt dit model vijf typen bestuurlijke gebieden die onder de bestuurlijke verantwoordelijkheid van het Rijk vallen.
 
 <aside class="example" title="Maritieme Zones">
 

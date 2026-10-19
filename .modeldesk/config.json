@@ -1,0 +1,11 @@
+{
+    "model": "e2c58e8c-5b58-4f87-b7e2-81352ddf3197",
+    "stack": "respec",
+    "template": "conceptueel",
+    "publishDirs": [
+        "data",
+        "media",
+        "js",
+        "css"
+    ]
+}

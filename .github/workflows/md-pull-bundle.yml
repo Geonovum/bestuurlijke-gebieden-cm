@@ -1,0 +1,53 @@
+name: Pull ModelDesk bundle (ReSpec)
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: Branch to commit the bundle to (leave empty for the branch this run was started on)
+        required: false
+        type: string
+      version:
+        description: Released model version to publish (leave empty to pull the live HEAD)
+        required: false
+        type: string
+
+# Any permissions block replaces the defaults, so restate everything the job needs.
+permissions:
+  contents: write # push the pulled bundle to the branch the workflow was started on
+  id-token: write # request the OIDC token the CLI exchanges with ModelDesk
+
+jobs:
+  pull-bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ inputs.branch || github.ref_name }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # An empty MODELDESK_VERSION means "unset" to the CLI: the pull then takes
+      # the model's live HEAD, pinned to a single commit for the whole pull.
+      - name: Pull the content bundle
+        env:
+          MODELDESK_VERSION: ${{ inputs.version }}
+        run: npx @modeldesk/cli@latest bundle pull
+
+      - name: Commit and push the updated bundle
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # .modeldesk holds notes.json, where the pull records new notes from md-notes/; the manifest is git-ignored
+          git add data/model .modeldesk
+          if git diff --cached --quiet; then
+            echo "Bundle is already up to date; nothing to commit."
+            exit 0
+          fi
+          git commit -m "Pull ModelDesk bundle ${{ inputs.version || '(latest)' }}" \
+            --author "${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>"
+          git push

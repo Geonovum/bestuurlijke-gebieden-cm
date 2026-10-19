@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 354 445" width="354" height="445" role="group" aria-label="Package View (NEN 3610:2022 - Basismodel geo-informatie)" font-family="Inter, ui-sans-serif, system-ui, -apple-system, &apos;Segoe UI&apos;, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="md-10f0e091-0d9f-3efb-8540-b6fcf92e4240-triangle-hollow" markerWidth="24" markerHeight="24" refX="24" refY="12" orient="auto" markerUnits="strokeWidth">
+      <line x1="20" y1="12" x2="24" y2="12" fill="none" stroke="white" stroke-width="2"/>
+      <path d="M 6 2 L 22 12 L 6 22 Z" fill="white" stroke="#4b5563" stroke-width="2"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="354" height="445" fill="#ffffff"/>
+  <g data-md-element="b6e5bd1e-a5f3-46fe-a378-e1a98506e640">
+    <title>⁨«Generalisatie»⁩ (⁨VirtueleRuimte⁩ → ⁨GeoObject⁩)</title>
+    <path d="M177.5 190L177.5 85" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-10f0e091-0d9f-3efb-8540-b6fcf92e4240-triangle-hollow)"/>
+    <path d="M177.5 190L177.5 85" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+  </g>
+  <g data-md-element="b691ac5d-cd80-4fed-a38e-3836e892793a">
+    <title>⁨«Generalisatie»⁩ (⁨RegistratieveRuimte⁩ → ⁨VirtueleRuimte⁩)</title>
+    <path d="M177.5 360L177.5 255" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-10f0e091-0d9f-3efb-8540-b6fcf92e4240-triangle-hollow)"/>
+    <path d="M177.5 360L177.5 255" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+  </g>
+  <g data-md-element="b6e5bd1e-a5f3-46fe-a378-e1a98506e640">
+    <title>⁨«Generalisatie»⁩ (⁨VirtueleRuimte⁩ → ⁨GeoObject⁩)</title>
+    <g>
+      <rect x="135.5" y="122.5" width="83.17" height="20.19" fill="#ffffff"/>
+      <text x="137.5" y="135.5" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+    </g>
+  </g>
+  <g data-md-element="b691ac5d-cd80-4fed-a38e-3836e892793a">
+    <title>⁨«Generalisatie»⁩ (⁨RegistratieveRuimte⁩ → ⁨VirtueleRuimte⁩)</title>
+    <g>
+      <rect x="135.5" y="292.5" width="83.17" height="20.19" fill="#ffffff"/>
+      <text x="137.5" y="305.5" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+    </g>
+  </g>
+  <g data-md-element="fb9d0a3e-d8da-4752-a44d-65f58c3f8fee">
+    <a href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_geo_object">
+      <title>GeoObject</title>
+      <rect x="20" y="20" width="314" height="65" rx="2" fill="#f3faf8"/>
+      <rect x="20.5" y="20.5" width="313" height="64" rx="1.5" fill="none" stroke="#00826b" stroke-width="1"/>
+      <rect x="21" y="21" width="312" height="62.5" fill="#00826b"/>
+      <text x="140.05" y="37" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="131.27" y="58" font-size="18" font-weight="500" fill="#ffffff" textLength="91.45" lengthAdjust="spacingAndGlyphs">GeoObject</text>
+      <text x="33.11" y="75.5" font-size="12" font-weight="300" font-style="italic" fill="#ffffff" textLength="287.78" lengthAdjust="spacingAndGlyphs">(from NEN 3610:2022 - Basismodel geo-informatie)</text>
+    </a>
+  </g>
+  <g data-md-element="97538a53-b06e-4855-800d-f8995d40af17">
+    <a href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_virtuele_ruimte">
+      <title>VirtueleRuimte</title>
+      <rect x="20" y="190" width="314" height="65" rx="2" fill="#f3faf8"/>
+      <rect x="20.5" y="190.5" width="313" height="64" rx="1.5" fill="none" stroke="#00826b" stroke-width="1"/>
+      <rect x="21" y="191" width="312" height="62.5" fill="#00826b"/>
+      <text x="140.05" y="207" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="113.63" y="228" font-size="18" font-weight="500" fill="#ffffff" textLength="126.73" lengthAdjust="spacingAndGlyphs">VirtueleRuimte</text>
+      <text x="33.11" y="245.5" font-size="12" font-weight="300" font-style="italic" fill="#ffffff" textLength="287.78" lengthAdjust="spacingAndGlyphs">(from NEN 3610:2022 - Basismodel geo-informatie)</text>
+    </a>
+  </g>
+  <g data-md-element="3953a140-e13b-49c3-b811-6e0a152328fb">
+    <a href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_registratieve_ruimte">
+      <title>RegistratieveRuimte</title>
+      <rect x="20" y="360" width="314" height="65" rx="2" fill="#f3faf8"/>
+      <rect x="20.5" y="360.5" width="313" height="64" rx="1.5" fill="none" stroke="#00826b" stroke-width="1"/>
+      <rect x="21" y="361" width="312" height="62.5" fill="#00826b"/>
+      <text x="140.05" y="377" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="91.19" y="398" font-size="18" font-weight="500" fill="#ffffff" textLength="171.61" lengthAdjust="spacingAndGlyphs">RegistratieveRuimte</text>
+      <text x="33.11" y="415.5" font-size="12" font-weight="300" font-style="italic" fill="#ffffff" textLength="287.78" lengthAdjust="spacingAndGlyphs">(from NEN 3610:2022 - Basismodel geo-informatie)</text>
+    </a>
+  </g>
+</svg>

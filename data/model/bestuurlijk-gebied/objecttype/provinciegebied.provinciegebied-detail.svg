@@ -1,0 +1,265 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 823" width="820" height="823" role="group" aria-label="Provinciegebied - detail" font-family="Inter, ui-sans-serif, system-ui, -apple-system, &apos;Segoe UI&apos;, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="md-fdebe630-2f89-4048-aa52-ef0c1a0a272c-triangle-filled" markerWidth="20" markerHeight="20" refX="20" refY="10" orient="auto" markerUnits="strokeWidth">
+      <line x1="16" y1="10" x2="20" y2="10" fill="none" stroke="white" stroke-width="2"/>
+      <path d="M 6 4 L 19 10 L 6 16 L 10 10 Z" fill="#4b5563" stroke="#4b5563" stroke-width="1"/>
+    </marker>
+    <marker id="md-fdebe630-2f89-4048-aa52-ef0c1a0a272c-triangle-hollow" markerWidth="24" markerHeight="24" refX="24" refY="12" orient="auto" markerUnits="strokeWidth">
+      <line x1="20" y1="12" x2="24" y2="12" fill="none" stroke="white" stroke-width="2"/>
+      <path d="M 6 2 L 22 12 L 6 22 Z" fill="white" stroke="#4b5563" stroke-width="2"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="820" height="823" fill="#ffffff"/>
+  <g data-md-element="be9c0363-7b54-4b69-8fc1-cf5caaf35e2c">
+    <a href="#informatiemodel_cim_bg_domein_openbaar_lichaam_objecttype_provincie_relatiesoort_bestuurt_provinciegebied">
+      <title>⁨«Relatiesoort» bestuurtProvinciegebied⁩ (⁨Provincie⁩ → ⁨Provinciegebied⁩)</title>
+      <desc>⁨Provincie⁩: ⁨1⁩; ⁨Provinciegebied⁩: ⁨1 «Relatierol doel» bestuurlijkGebied⁩</desc>
+      <path d="M735 611L 735,705Q 735,710 730,710L 581,710Q 576,710 576,715L576 753" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-fdebe630-2f89-4048-aa52-ef0c1a0a272c-triangle-filled)"/>
+      <path d="M735 611L 735,705Q 735,710 730,710L 581,710Q 576,710 576,715L576 753" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="95ec0da7-02ed-4b2a-ad5f-e6abd9487439">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_bestuurlijk_gebied_generalisatie_registratieve_ruimte">
+      <title>⁨«Generalisatie»⁩ (⁨BestuurlijkGebied⁩ → ⁨RegistratieveRuimte⁩)</title>
+      <path d="M281 227L281 122" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-fdebe630-2f89-4048-aa52-ef0c1a0a272c-triangle-hollow)"/>
+      <path d="M281 227L281 122" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="40227bf8-562b-4ef8-b2c6-9536e65bb626">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_provinciegebied_generalisatie_bestuurlijk_gebied">
+      <title>⁨«Generalisatie»⁩ (⁨Provinciegebied⁩ → ⁨BestuurlijkGebied⁩)</title>
+      <path d="M392 753L392 369" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-fdebe630-2f89-4048-aa52-ef0c1a0a272c-triangle-hollow)"/>
+      <path d="M392 753L392 369" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="5c6181a3-2965-4b0e-9e33-7c1e3250df1c">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_provinciegebied_relatiesoort_ligt_in_landgebied">
+      <title>⁨«Relatiesoort» ligtInLandgebied⁩ (⁨Provinciegebied⁩ → ⁨Landgebied⁩)</title>
+      <desc>⁨Provinciegebied⁩: ⁨0..*⁩; ⁨Landgebied⁩: ⁨1 «Relatierol doel» gerelateerdLandgebied⁩</desc>
+      <path d="M328 753L 328,731Q 328,726 323,726L 165,726Q 160,726 160,721L160 603" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-fdebe630-2f89-4048-aa52-ef0c1a0a272c-triangle-filled)"/>
+      <path d="M328 753L 328,731Q 328,726 323,726L 165,726Q 160,726 160,721L160 603" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="61091b3e-1219-4287-9dc0-36bba3e91f81">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_provinciegebied_relatiesoort_is_provinciegebied_van">
+      <title>⁨«Relatiesoort» isProvinciegebiedVan⁩ (⁨Provinciegebied⁩ → ⁨Provincie⁩)</title>
+      <desc>⁨Provinciegebied⁩: ⁨1⁩; ⁨Provincie⁩: ⁨1 «Relatierol doel» regionaalOpenbaarLichaam⁩</desc>
+      <path d="M427 753L 427,715Q 427,710 432,710L 506,710Q 511,710 511,705L511 611" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-fdebe630-2f89-4048-aa52-ef0c1a0a272c-triangle-filled)"/>
+      <path d="M427 753L 427,715Q 427,710 432,710L 506,710Q 511,710 511,705L511 611" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="7fa4fa5e-544d-4dc7-9d04-77e29e54174a">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_landgebied_generalisatie_bestuurlijk_gebied">
+      <title>⁨«Generalisatie»⁩ (⁨Landgebied⁩ → ⁨BestuurlijkGebied⁩)</title>
+      <path d="M160 554L 160,473Q 160,468 165,468L 325,468Q 330,468 330,463L330 369" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-fdebe630-2f89-4048-aa52-ef0c1a0a272c-triangle-hollow)"/>
+      <path d="M160 554L 160,473Q 160,468 165,468L 325,468Q 330,468 330,463L330 369" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="39900540-57b6-4daa-88fc-25896f3817a4">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_bestuurlijk_gebied_relatiesoort_ligt_in_bestuurlijk_gebied">
+      <title>⁨«Relatiesoort» /ligtInBestuurlijkGebied⁩ (⁨BestuurlijkGebied⁩ → ⁨BestuurlijkGebied⁩)</title>
+      <desc>⁨BestuurlijkGebied⁩: ⁨«Relatierol bron» bevatteGebied 0..*⁩; ⁨BestuurlijkGebied⁩: ⁨0..* «Relatierol doel» bevattendGebied⁩</desc>
+      <path d="M141 298L 33,298Q 28,298 28,303L 28,435Q 28,440 33,440L 165,440Q 170,440 170,435L170 369" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-fdebe630-2f89-4048-aa52-ef0c1a0a272c-triangle-filled)"/>
+      <path d="M141 298L 33,298Q 28,298 28,303L 28,435Q 28,440 33,440L 165,440Q 170,440 170,435L170 369" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="be9c0363-7b54-4b69-8fc1-cf5caaf35e2c">
+    <a href="#informatiemodel_cim_bg_domein_openbaar_lichaam_objecttype_provincie_relatiesoort_bestuurt_provinciegebied">
+      <title>⁨«Relatiesoort» bestuurtProvinciegebied⁩ (⁨Provincie⁩ → ⁨Provinciegebied⁩)</title>
+      <g>
+        <rect x="670.25" y="654" width="128.91" height="36.38" fill="#ffffff"/>
+        <text x="698.09" y="667" font-size="10.8" fill="#000000" textLength="73.2" lengthAdjust="spacingAndGlyphs">«Relatiesoort»</text>
+        <text x="672.25" y="683.19" font-size="10.8" fill="#000000" textLength="124.91" lengthAdjust="spacingAndGlyphs">bestuurtProvinciegebied</text>
+      </g>
+      <g>
+        <text x="478.8" y="731" font-size="10.8" fill="#000000" textLength="84.8" lengthAdjust="spacingAndGlyphs">«Relatierol doel»</text>
+        <text x="476.5" y="747.19" font-size="10.8" fill="#000000" textLength="89.39" lengthAdjust="spacingAndGlyphs">bestuurlijkGebied</text>
+      </g>
+      <g>
+        <text x="720.75" y="623" font-size="10.8" fill="#000000" textLength="4.41" lengthAdjust="spacingAndGlyphs">1</text>
+      </g>
+      <g>
+        <text x="585.5" y="747" font-size="10.8" fill="#000000" textLength="4.41" lengthAdjust="spacingAndGlyphs">1</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="95ec0da7-02ed-4b2a-ad5f-e6abd9487439">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_bestuurlijk_gebied_generalisatie_registratieve_ruimte">
+      <title>⁨«Generalisatie»⁩ (⁨BestuurlijkGebied⁩ → ⁨RegistratieveRuimte⁩)</title>
+      <g>
+        <rect x="239.33" y="159.5" width="83.17" height="20.19" fill="#ffffff"/>
+        <text x="241.33" y="172.5" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="40227bf8-562b-4ef8-b2c6-9536e65bb626">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_provinciegebied_generalisatie_bestuurlijk_gebied">
+      <title>⁨«Generalisatie»⁩ (⁨Provinciegebied⁩ → ⁨BestuurlijkGebied⁩)</title>
+      <g>
+        <rect x="350" y="563.5" width="83.17" height="20.19" fill="#ffffff"/>
+        <text x="352" y="576.5" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="5c6181a3-2965-4b0e-9e33-7c1e3250df1c">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_provinciegebied_relatiesoort_ligt_in_landgebied">
+      <title>⁨«Relatiesoort» ligtInLandgebied⁩ (⁨Provinciegebied⁩ → ⁨Landgebied⁩)</title>
+      <g>
+        <rect x="115.5" y="654" width="88.88" height="36.38" fill="#ffffff"/>
+        <text x="123.33" y="667" font-size="10.8" fill="#000000" textLength="73.2" lengthAdjust="spacingAndGlyphs">«Relatiesoort»</text>
+        <text x="117.5" y="683.19" font-size="10.8" fill="#000000" textLength="84.88" lengthAdjust="spacingAndGlyphs">ligtInLandgebied</text>
+      </g>
+      <g>
+        <text x="186.84" y="615" font-size="10.8" fill="#000000" textLength="84.8" lengthAdjust="spacingAndGlyphs">«Relatierol doel»</text>
+        <text x="170" y="631.19" font-size="10.8" fill="#000000" textLength="118.5" lengthAdjust="spacingAndGlyphs">gerelateerdLandgebied</text>
+      </g>
+      <g>
+        <text x="338" y="747" font-size="10.8" fill="#000000" textLength="18.17" lengthAdjust="spacingAndGlyphs">0..*</text>
+      </g>
+      <g>
+        <text x="146" y="615" font-size="10.8" fill="#000000" textLength="4.41" lengthAdjust="spacingAndGlyphs">1</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="61091b3e-1219-4287-9dc0-36bba3e91f81">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_provinciegebied_relatiesoort_is_provinciegebied_van">
+      <title>⁨«Relatiesoort» isProvinciegebiedVan⁩ (⁨Provinciegebied⁩ → ⁨Provincie⁩)</title>
+      <g>
+        <rect x="454.25" y="654" width="113.89" height="36.38" fill="#ffffff"/>
+        <text x="474.59" y="667" font-size="10.8" fill="#000000" textLength="73.2" lengthAdjust="spacingAndGlyphs">«Relatiesoort»</text>
+        <text x="456.25" y="683.19" font-size="10.8" fill="#000000" textLength="109.89" lengthAdjust="spacingAndGlyphs">isProvinciegebiedVan</text>
+      </g>
+      <g>
+        <text x="549.09" y="623" font-size="10.8" fill="#000000" textLength="84.8" lengthAdjust="spacingAndGlyphs">«Relatierol doel»</text>
+        <text x="521.25" y="639.19" font-size="10.8" fill="#000000" textLength="140.48" lengthAdjust="spacingAndGlyphs">regionaalOpenbaarLichaam</text>
+      </g>
+      <g>
+        <text x="437" y="747" font-size="10.8" fill="#000000" textLength="4.41" lengthAdjust="spacingAndGlyphs">1</text>
+      </g>
+      <g>
+        <text x="497.25" y="623" font-size="10.8" fill="#000000" textLength="4.41" lengthAdjust="spacingAndGlyphs">1</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="7fa4fa5e-544d-4dc7-9d04-77e29e54174a">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_landgebied_generalisatie_bestuurlijk_gebied">
+      <title>⁨«Generalisatie»⁩ (⁨Landgebied⁩ → ⁨BestuurlijkGebied⁩)</title>
+      <g>
+        <rect x="118.5" y="478.5" width="83.17" height="20.19" fill="#ffffff"/>
+        <text x="120.5" y="491.5" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="39900540-57b6-4daa-88fc-25896f3817a4">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_bestuurlijk_gebied_relatiesoort_ligt_in_bestuurlijk_gebied">
+      <title>⁨«Relatiesoort» /ligtInBestuurlijkGebied⁩ (⁨BestuurlijkGebied⁩ → ⁨BestuurlijkGebied⁩)</title>
+      <g>
+        <rect x="37.66" y="422.5" width="122.41" height="36.38" fill="#ffffff"/>
+        <text x="62.25" y="435.5" font-size="10.8" fill="#000000" textLength="73.2" lengthAdjust="spacingAndGlyphs">«Relatiesoort»</text>
+        <text x="39.66" y="451.69" font-size="10.8" fill="#000000" textLength="118.41" lengthAdjust="spacingAndGlyphs">/ligtInBestuurlijkGebied</text>
+      </g>
+      <g>
+        <text x="53.83" y="319" font-size="10.8" fill="#000000" textLength="86.16" lengthAdjust="spacingAndGlyphs">«Relatierol bron»</text>
+        <text x="59.64" y="335.19" font-size="10.8" fill="#000000" textLength="74.52" lengthAdjust="spacingAndGlyphs">bevatteGebied</text>
+      </g>
+      <g>
+        <text x="181.5" y="381" font-size="10.8" fill="#000000" textLength="84.8" lengthAdjust="spacingAndGlyphs">«Relatierol doel»</text>
+        <text x="180.16" y="397.19" font-size="10.8" fill="#000000" textLength="87.5" lengthAdjust="spacingAndGlyphs">bevattendGebied</text>
+      </g>
+      <g>
+        <text x="121.83" y="283" font-size="10.8" fill="#000000" textLength="18.17" lengthAdjust="spacingAndGlyphs">0..*</text>
+      </g>
+      <g>
+        <text x="142.16" y="381" font-size="10.8" fill="#000000" textLength="18.17" lengthAdjust="spacingAndGlyphs">0..*</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="648f403a-38a4-48c4-aed6-5d5fea93af3a">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_provinciegebied">
+      <title>Provinciegebied</title>
+      <rect x="311.75" y="753" width="280" height="49" rx="2" fill="#f5f7fd"/>
+      <rect x="312.25" y="753.5" width="279" height="48" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="312.75" y="754" width="278" height="46.5" fill="#4f73cc"/>
+      <text x="414.8" y="770" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="382.25" y="791" font-size="18" font-weight="500" fill="#ffffff" textLength="139" lengthAdjust="spacingAndGlyphs">Provinciegebied</text>
+    </a>
+  </g>
+  <g data-md-element="17390db1-034f-4011-8524-88c71f4e8dcb">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_bestuurlijk_gebied">
+      <title>BestuurlijkGebied</title>
+      <rect x="140.83" y="227" width="280" height="142" rx="2" fill="#f5f7fd"/>
+      <rect x="141.33" y="227.5" width="279" height="141" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="141.83" y="228" width="278" height="47.5" fill="#4f73cc"/>
+      <line x1="141.83" y1="275" x2="419.83" y2="275" stroke="#4f73cc" stroke-width="1"/>
+      <text x="243.88" y="244" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="204.73" y="265" font-size="18" font-weight="500" fill="#ffffff" textLength="152.19" lengthAdjust="spacingAndGlyphs">BestuurlijkGebied</text>
+      <text x="149.83" y="295.5" font-size="12" font-weight="300" fill="#000000" textLength="88.02" lengthAdjust="spacingAndGlyphs">«Attribuutsoort»</text>
+    </a>
+    <g data-md-element="0cf52825-7570-41a1-9cbd-2dc3cc8f7f53">
+      <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_bestuurlijk_gebied_attribuutsoort_naam">
+        <title>naam</title>
+        <text x="149.83" y="314.5" font-size="14" font-weight="600" fill="#000000" textLength="37.25" lengthAdjust="spacingAndGlyphs">naam</text>
+        <text x="187.08" y="314.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="195.55" y="314.5" font-size="14" fill="#000000" textLength="104.59" lengthAdjust="spacingAndGlyphs">CharacterString</text>
+        <text x="304.14" y="314.5" font-size="14" fill="#000000" textLength="31.25" lengthAdjust="spacingAndGlyphs">[0..1]</text>
+      </a>
+    </g>
+    <g data-md-element="39ad58c3-48a8-4397-a759-869602c87dff">
+      <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_bestuurlijk_gebied_attribuutsoort_geometrie">
+        <title>geometrie</title>
+        <text x="149.83" y="334.5" font-size="14" font-weight="600" fill="#000000" textLength="68.98" lengthAdjust="spacingAndGlyphs">geometrie</text>
+        <text x="218.81" y="334.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="227.28" y="334.5" font-size="14" fill="#000000" textLength="103.86" lengthAdjust="spacingAndGlyphs">VlakOfMultivlak</text>
+      </a>
+    </g>
+    <g data-md-element="0f004c17-e9a0-48a3-a4a5-2dcc1b359534">
+      <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_bestuurlijk_gebied_attribuutsoort_type">
+        <title>/type</title>
+        <text x="149.83" y="354.5" font-size="14" font-weight="600" fill="#000000" textLength="35.81" lengthAdjust="spacingAndGlyphs">/type</text>
+        <text x="185.64" y="354.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="194.11" y="354.5" font-size="14" fill="#000000" textLength="149.27" lengthAdjust="spacingAndGlyphs">TypeBestuurlijkGebied</text>
+      </a>
+    </g>
+  </g>
+  <g data-md-element="f5607e0e-e726-4a9d-9a99-86907ebe253b">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_registratieve_ruimte">
+      <title>RegistratieveRuimte</title>
+      <rect x="140.83" y="20" width="280" height="102" rx="2" fill="#f5f7fd"/>
+      <rect x="141.33" y="20.5" width="279" height="101" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="141.83" y="21" width="278" height="47.5" fill="#4f73cc"/>
+      <line x1="141.83" y1="68" x2="419.83" y2="68" stroke="#4f73cc" stroke-width="1"/>
+      <text x="243.88" y="37" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="195.02" y="58" font-size="18" font-weight="500" fill="#ffffff" textLength="171.61" lengthAdjust="spacingAndGlyphs">RegistratieveRuimte</text>
+      <text x="149.83" y="88.5" font-size="12" font-weight="300" fill="#000000" textLength="88.02" lengthAdjust="spacingAndGlyphs">«Attribuutsoort»</text>
+    </a>
+    <g data-md-element="aab29c7f-f6b5-4d4b-b0b7-f554ef89e8cd">
+      <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_registratieve_ruimte_attribuutsoort_status">
+        <title>status</title>
+        <text x="149.83" y="107.5" font-size="14" font-weight="600" fill="#000000" textLength="41.95" lengthAdjust="spacingAndGlyphs">status</text>
+        <text x="191.78" y="107.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="200.25" y="107.5" font-size="14" fill="#000000" textLength="172.95" lengthAdjust="spacingAndGlyphs">StatusRegistratieveRuimte</text>
+      </a>
+    </g>
+  </g>
+  <g data-md-element="823525ae-a440-407c-85b0-9cd63ca965e3">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_landgebied">
+      <title>Landgebied</title>
+      <rect x="20" y="554" width="280" height="49" rx="2" fill="#f5f7fd"/>
+      <rect x="20.5" y="554.5" width="279" height="48" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="21" y="555" width="278" height="46.5" fill="#4f73cc"/>
+      <text x="123.05" y="571" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="109.27" y="592" font-size="18" font-weight="500" fill="#ffffff" textLength="101.45" lengthAdjust="spacingAndGlyphs">Landgebied</text>
+    </a>
+  </g>
+  <g data-md-element="5e9ea3d2-88d6-4827-93aa-e271d19a94ca">
+    <a href="#informatiemodel_cim_bg_domein_openbaar_lichaam_objecttype_provincie">
+      <title>Provincie</title>
+      <rect x="483" y="546" width="280" height="65" rx="2" fill="#f5f7fd"/>
+      <rect x="483.5" y="546.5" width="279" height="64" rx="1.5" fill="none" stroke="#66718b" stroke-width="1"/>
+      <rect x="484" y="547" width="278" height="62.5" fill="#66718b"/>
+      <text x="586.05" y="563" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="583.05" y="584" font-size="18" font-weight="500" fill="#ffffff" textLength="79.91" lengthAdjust="spacingAndGlyphs">Provincie</text>
+      <text x="553.42" y="601.5" font-size="12" font-weight="300" font-style="italic" fill="#ffffff" textLength="139.16" lengthAdjust="spacingAndGlyphs">(from Openbaar lichaam)</text>
+    </a>
+  </g>
+</svg>

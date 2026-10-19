@@ -1,1 +1,4 @@
 .vscode
+
+# Written by every `modeldesk bundle pull`; a committed copy goes stale and misleads the next pull
+.modeldesk/*.manifest.json

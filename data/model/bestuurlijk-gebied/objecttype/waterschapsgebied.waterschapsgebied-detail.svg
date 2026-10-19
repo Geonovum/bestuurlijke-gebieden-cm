@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 787 627" width="787" height="627" role="group" aria-label="Waterschapsgebied - detail" font-family="Inter, ui-sans-serif, system-ui, -apple-system, &apos;Segoe UI&apos;, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="md-9703e48f-1981-4d41-b87b-fb59fe1c603f-triangle-filled" markerWidth="20" markerHeight="20" refX="20" refY="10" orient="auto" markerUnits="strokeWidth">
+      <line x1="16" y1="10" x2="20" y2="10" fill="none" stroke="white" stroke-width="2"/>
+      <path d="M 6 4 L 19 10 L 6 16 L 10 10 Z" fill="#4b5563" stroke="#4b5563" stroke-width="1"/>
+    </marker>
+    <marker id="md-9703e48f-1981-4d41-b87b-fb59fe1c603f-triangle-hollow" markerWidth="24" markerHeight="24" refX="24" refY="12" orient="auto" markerUnits="strokeWidth">
+      <line x1="20" y1="12" x2="24" y2="12" fill="none" stroke="white" stroke-width="2"/>
+      <path d="M 6 2 L 22 12 L 6 22 Z" fill="white" stroke="#4b5563" stroke-width="2"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="787" height="627" fill="#ffffff"/>
+  <g data-md-element="628ccbf5-e0d2-425b-9525-0dd0e738e425">
+    <a href="#informatiemodel_cim_bg_domein_openbaar_lichaam_objecttype_waterschap_relatiesoort_heeft_waterschapsgebied">
+      <title>⁨«Relatiesoort» heeftWaterschapsgebied⁩ (⁨Waterschap⁩ → ⁨Waterschapsgebied⁩)</title>
+      <desc>⁨Waterschap⁩: ⁨1⁩; ⁨Waterschapsgebied⁩: ⁨1 «Relatierol doel» bestuurlijkGebied⁩</desc>
+      <path d="M310.25 330.5L310.25 557.5" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-9703e48f-1981-4d41-b87b-fb59fe1c603f-triangle-filled)"/>
+      <path d="M310.25 330.5L310.25 557.5" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="95ec0da7-02ed-4b2a-ad5f-e6abd9487439">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_bestuurlijk_gebied_generalisatie_registratieve_ruimte">
+      <title>⁨«Generalisatie»⁩ (⁨BestuurlijkGebied⁩ → ⁨RegistratieveRuimte⁩)</title>
+      <path d="M626.25 226.5L626.25 121.5" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-9703e48f-1981-4d41-b87b-fb59fe1c603f-triangle-hollow)"/>
+      <path d="M626.25 226.5L626.25 121.5" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="db3f195d-c5f3-45cc-a2e1-b9e3264d87f1">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_waterschapsgebied_relatiesoort_is_waterschapsgebied_van">
+      <title>⁨«Relatiesoort» isWaterschapsgebiedVan⁩ (⁨Waterschapsgebied⁩ → ⁨Waterschap⁩)</title>
+      <desc>⁨Waterschapsgebied⁩: ⁨1⁩; ⁨Waterschap⁩: ⁨1 «Relatierol doel» regionaalOpenbaarLichaam⁩</desc>
+      <path d="M145.25 557.5L 145.25,535.5Q 145.25,530.5 140.25,530.5L 91.25,530.5Q 86.25,530.5 86.25,525.5L86.25 330.5" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-9703e48f-1981-4d41-b87b-fb59fe1c603f-triangle-filled)"/>
+      <path d="M145.25 557.5L 145.25,535.5Q 145.25,530.5 140.25,530.5L 91.25,530.5Q 86.25,530.5 86.25,525.5L86.25 330.5" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="d09c2c1e-dee7-434f-9c99-c7efedb7c9cc">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_waterschapsgebied_generalisatie_bestuurlijk_gebied">
+      <title>⁨«Generalisatie»⁩ (⁨Waterschapsgebied⁩ → ⁨BestuurlijkGebied⁩)</title>
+      <path d="M376.25 557.5L 376.25,537.5Q 376.25,532.5 381.25,532.5L 717.25,532.5Q 722.25,532.5 722.25,527.5L722.25 368.5" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-9703e48f-1981-4d41-b87b-fb59fe1c603f-triangle-hollow)"/>
+      <path d="M376.25 557.5L 376.25,537.5Q 376.25,532.5 381.25,532.5L 717.25,532.5Q 722.25,532.5 722.25,527.5L722.25 368.5" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="39900540-57b6-4daa-88fc-25896f3817a4">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_bestuurlijk_gebied_relatiesoort_ligt_in_bestuurlijk_gebied">
+      <title>⁨«Relatiesoort» /ligtInBestuurlijkGebied⁩ (⁨BestuurlijkGebied⁩ → ⁨BestuurlijkGebied⁩)</title>
+      <desc>⁨BestuurlijkGebied⁩: ⁨«Relatierol bron» bevatteGebied 0..*⁩; ⁨BestuurlijkGebied⁩: ⁨0..* «Relatierol doel» bevattendGebied⁩</desc>
+      <path d="M486.25 297.5L 394.25,297.5Q 389.25,297.5 389.25,302.5L 389.25,435.5Q 389.25,440.5 394.25,440.5L 526.25,440.5Q 531.25,440.5 531.25,435.5L531.25 368.5" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-9703e48f-1981-4d41-b87b-fb59fe1c603f-triangle-filled)"/>
+      <path d="M486.25 297.5L 394.25,297.5Q 389.25,297.5 389.25,302.5L 389.25,435.5Q 389.25,440.5 394.25,440.5L 526.25,440.5Q 531.25,440.5 531.25,435.5L531.25 368.5" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="628ccbf5-e0d2-425b-9525-0dd0e738e425">
+    <a href="#informatiemodel_cim_bg_domein_openbaar_lichaam_objecttype_waterschap_relatiesoort_heeft_waterschapsgebied">
+      <title>⁨«Relatiesoort» heeftWaterschapsgebied⁩ (⁨Waterschap⁩ → ⁨Waterschapsgebied⁩)</title>
+      <g>
+        <rect x="244" y="468.5" width="131.64" height="36.38" fill="#ffffff"/>
+        <text x="273.22" y="481.5" font-size="10.8" fill="#000000" textLength="73.2" lengthAdjust="spacingAndGlyphs">«Relatiesoort»</text>
+        <text x="246" y="497.69" font-size="10.8" fill="#000000" textLength="127.64" lengthAdjust="spacingAndGlyphs">heeftWaterschapsgebied</text>
+      </g>
+      <g>
+        <text x="213.3" y="535.5" font-size="10.8" fill="#000000" textLength="84.8" lengthAdjust="spacingAndGlyphs">«Relatierol doel»</text>
+        <text x="211" y="551.69" font-size="10.8" fill="#000000" textLength="89.39" lengthAdjust="spacingAndGlyphs">bestuurlijkGebied</text>
+      </g>
+      <g>
+        <text x="296" y="342.5" font-size="10.8" fill="#000000" textLength="4.41" lengthAdjust="spacingAndGlyphs">1</text>
+      </g>
+      <g>
+        <text x="320" y="551.5" font-size="10.8" fill="#000000" textLength="4.41" lengthAdjust="spacingAndGlyphs">1</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="95ec0da7-02ed-4b2a-ad5f-e6abd9487439">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_bestuurlijk_gebied_generalisatie_registratieve_ruimte">
+      <title>⁨«Generalisatie»⁩ (⁨BestuurlijkGebied⁩ → ⁨RegistratieveRuimte⁩)</title>
+      <g>
+        <rect x="585" y="159.5" width="83.17" height="20.19" fill="#ffffff"/>
+        <text x="587" y="172.5" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="db3f195d-c5f3-45cc-a2e1-b9e3264d87f1">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_waterschapsgebied_relatiesoort_is_waterschapsgebied_van">
+      <title>⁨«Relatiesoort» isWaterschapsgebiedVan⁩ (⁨Waterschapsgebied⁩ → ⁨Waterschap⁩)</title>
+      <g>
+        <rect x="20" y="468.5" width="132.91" height="36.38" fill="#ffffff"/>
+        <text x="49.84" y="481.5" font-size="10.8" fill="#000000" textLength="73.2" lengthAdjust="spacingAndGlyphs">«Relatiesoort»</text>
+        <text x="22" y="497.69" font-size="10.8" fill="#000000" textLength="128.91" lengthAdjust="spacingAndGlyphs">isWaterschapsgebiedVan</text>
+      </g>
+      <g>
+        <text x="124.34" y="342.5" font-size="10.8" fill="#000000" textLength="84.8" lengthAdjust="spacingAndGlyphs">«Relatierol doel»</text>
+        <text x="96.5" y="358.69" font-size="10.8" fill="#000000" textLength="140.48" lengthAdjust="spacingAndGlyphs">regionaalOpenbaarLichaam</text>
+      </g>
+      <g>
+        <text x="155" y="551.5" font-size="10.8" fill="#000000" textLength="4.41" lengthAdjust="spacingAndGlyphs">1</text>
+      </g>
+      <g>
+        <text x="72.5" y="342.5" font-size="10.8" fill="#000000" textLength="4.41" lengthAdjust="spacingAndGlyphs">1</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="d09c2c1e-dee7-434f-9c99-c7efedb7c9cc">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_waterschapsgebied_generalisatie_bestuurlijk_gebied">
+      <title>⁨«Generalisatie»⁩ (⁨Waterschapsgebied⁩ → ⁨BestuurlijkGebied⁩)</title>
+      <g>
+        <rect x="680.25" y="476.5" width="83.17" height="20.19" fill="#ffffff"/>
+        <text x="682.25" y="489.5" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="39900540-57b6-4daa-88fc-25896f3817a4">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_bestuurlijk_gebied_relatiesoort_ligt_in_bestuurlijk_gebied">
+      <title>⁨«Relatiesoort» /ligtInBestuurlijkGebied⁩ (⁨BestuurlijkGebied⁩ → ⁨BestuurlijkGebied⁩)</title>
+      <g>
+        <rect x="398.75" y="422.5" width="122.41" height="36.38" fill="#ffffff"/>
+        <text x="423.34" y="435.5" font-size="10.8" fill="#000000" textLength="73.2" lengthAdjust="spacingAndGlyphs">«Relatiesoort»</text>
+        <text x="400.75" y="451.69" font-size="10.8" fill="#000000" textLength="118.41" lengthAdjust="spacingAndGlyphs">/ligtInBestuurlijkGebied</text>
+      </g>
+      <g>
+        <text x="399.5" y="319" font-size="10.8" fill="#000000" textLength="86.16" lengthAdjust="spacingAndGlyphs">«Relatierol bron»</text>
+        <text x="405.31" y="335.19" font-size="10.8" fill="#000000" textLength="74.52" lengthAdjust="spacingAndGlyphs">bevatteGebied</text>
+      </g>
+      <g>
+        <text x="542.59" y="381" font-size="10.8" fill="#000000" textLength="84.8" lengthAdjust="spacingAndGlyphs">«Relatierol doel»</text>
+        <text x="541.25" y="397.19" font-size="10.8" fill="#000000" textLength="87.5" lengthAdjust="spacingAndGlyphs">bevattendGebied</text>
+      </g>
+      <g>
+        <text x="467.5" y="283" font-size="10.8" fill="#000000" textLength="18.17" lengthAdjust="spacingAndGlyphs">0..*</text>
+      </g>
+      <g>
+        <text x="503.25" y="381" font-size="10.8" fill="#000000" textLength="18.17" lengthAdjust="spacingAndGlyphs">0..*</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="f5607e0e-e726-4a9d-9a99-86907ebe253b">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_registratieve_ruimte">
+      <title>RegistratieveRuimte</title>
+      <rect x="486.5" y="20" width="280" height="102" rx="2" fill="#f5f7fd"/>
+      <rect x="487" y="20.5" width="279" height="101" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="487.5" y="21" width="278" height="47.5" fill="#4f73cc"/>
+      <line x1="487.5" y1="68" x2="765.5" y2="68" stroke="#4f73cc" stroke-width="1"/>
+      <text x="589.55" y="37" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="540.69" y="58" font-size="18" font-weight="500" fill="#ffffff" textLength="171.61" lengthAdjust="spacingAndGlyphs">RegistratieveRuimte</text>
+      <text x="495.5" y="88.5" font-size="12" font-weight="300" fill="#000000" textLength="88.02" lengthAdjust="spacingAndGlyphs">«Attribuutsoort»</text>
+    </a>
+    <g data-md-element="aab29c7f-f6b5-4d4b-b0b7-f554ef89e8cd">
+      <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_registratieve_ruimte_attribuutsoort_status">
+        <title>status</title>
+        <text x="495.5" y="107.5" font-size="14" font-weight="600" fill="#000000" textLength="41.95" lengthAdjust="spacingAndGlyphs">status</text>
+        <text x="537.45" y="107.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="545.92" y="107.5" font-size="14" fill="#000000" textLength="172.95" lengthAdjust="spacingAndGlyphs">StatusRegistratieveRuimte</text>
+      </a>
+    </g>
+  </g>
+  <g data-md-element="041490e8-df1d-44c3-bf23-efd9c729684d">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_waterschapsgebied">
+      <title>Waterschapsgebied</title>
+      <rect x="120.5" y="557.5" width="280" height="49" rx="2" fill="#f5f7fd"/>
+      <rect x="121" y="558" width="279" height="48" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="121.5" y="558.5" width="278" height="46.5" fill="#4f73cc"/>
+      <text x="223.55" y="574.5" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="174.56" y="595.5" font-size="18" font-weight="500" fill="#ffffff" textLength="171.86" lengthAdjust="spacingAndGlyphs">Waterschapsgebied</text>
+    </a>
+  </g>
+  <g data-md-element="53f518ad-2235-43b8-963e-4a4818a827b0">
+    <a href="#informatiemodel_cim_bg_domein_openbaar_lichaam_objecttype_waterschap">
+      <title>Waterschap</title>
+      <rect x="58.25" y="265.5" width="280" height="65" rx="2" fill="#f5f7fd"/>
+      <rect x="58.75" y="266" width="279" height="64" rx="1.5" fill="none" stroke="#66718b" stroke-width="1"/>
+      <rect x="59.25" y="266.5" width="278" height="62.5" fill="#66718b"/>
+      <text x="161.3" y="282.5" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="146.7" y="303.5" font-size="18" font-weight="500" fill="#ffffff" textLength="103.08" lengthAdjust="spacingAndGlyphs">Waterschap</text>
+      <text x="128.67" y="321" font-size="12" font-weight="300" font-style="italic" fill="#ffffff" textLength="139.16" lengthAdjust="spacingAndGlyphs">(from Openbaar lichaam)</text>
+    </a>
+  </g>
+  <g data-md-element="17390db1-034f-4011-8524-88c71f4e8dcb">
+    <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_bestuurlijk_gebied">
+      <title>BestuurlijkGebied</title>
+      <rect x="486.5" y="227" width="280" height="142" rx="2" fill="#f5f7fd"/>
+      <rect x="487" y="227.5" width="279" height="141" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="487.5" y="228" width="278" height="47.5" fill="#4f73cc"/>
+      <line x1="487.5" y1="275" x2="765.5" y2="275" stroke="#4f73cc" stroke-width="1"/>
+      <text x="589.55" y="244" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="550.41" y="265" font-size="18" font-weight="500" fill="#ffffff" textLength="152.19" lengthAdjust="spacingAndGlyphs">BestuurlijkGebied</text>
+      <text x="495.5" y="295.5" font-size="12" font-weight="300" fill="#000000" textLength="88.02" lengthAdjust="spacingAndGlyphs">«Attribuutsoort»</text>
+    </a>
+    <g data-md-element="0cf52825-7570-41a1-9cbd-2dc3cc8f7f53">
+      <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_bestuurlijk_gebied_attribuutsoort_naam">
+        <title>naam</title>
+        <text x="495.5" y="314.5" font-size="14" font-weight="600" fill="#000000" textLength="37.25" lengthAdjust="spacingAndGlyphs">naam</text>
+        <text x="532.75" y="314.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="541.22" y="314.5" font-size="14" fill="#000000" textLength="104.59" lengthAdjust="spacingAndGlyphs">CharacterString</text>
+        <text x="649.81" y="314.5" font-size="14" fill="#000000" textLength="31.25" lengthAdjust="spacingAndGlyphs">[0..1]</text>
+      </a>
+    </g>
+    <g data-md-element="39ad58c3-48a8-4397-a759-869602c87dff">
+      <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_bestuurlijk_gebied_attribuutsoort_geometrie">
+        <title>geometrie</title>
+        <text x="495.5" y="334.5" font-size="14" font-weight="600" fill="#000000" textLength="68.98" lengthAdjust="spacingAndGlyphs">geometrie</text>
+        <text x="564.48" y="334.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="572.95" y="334.5" font-size="14" fill="#000000" textLength="103.86" lengthAdjust="spacingAndGlyphs">VlakOfMultivlak</text>
+      </a>
+    </g>
+    <g data-md-element="0f004c17-e9a0-48a3-a4a5-2dcc1b359534">
+      <a href="#informatiemodel_cim_bg_domein_bestuurlijk_gebied_objecttype_bestuurlijk_gebied_attribuutsoort_type">
+        <title>/type</title>
+        <text x="495.5" y="354.5" font-size="14" font-weight="600" fill="#000000" textLength="35.81" lengthAdjust="spacingAndGlyphs">/type</text>
+        <text x="531.31" y="354.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="539.78" y="354.5" font-size="14" fill="#000000" textLength="149.27" lengthAdjust="spacingAndGlyphs">TypeBestuurlijkGebied</text>
+      </a>
+    </g>
+  </g>
+</svg>

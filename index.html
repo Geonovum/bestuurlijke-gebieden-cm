@@ -12,10 +12,15 @@
   <script>document.title = respecConfig.title</script>
   <title>Default</title> <!--Informatiemodel Samenhangende Objecten-->
   <link rel="shortcut icon" type="image/x-icon" href="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.ico" />
-  <script src="js/modeldesk-respec.js?v=3" defer></script>
+  <!-- ModelDesk's runtime voor modeldiagrammen. Een script (geplaatst vóór ReSpec en ná het moment dat
+   respecConfig definitief is, en zonder class="remove", zodat het behouden blijft in de gepubliceerde kopie. -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/@modeldesk/respec@0.1.0/dist/modeldesk-respec.js"
+    integrity="sha384-ytqM8F2hafxjLjoYd+eWA+WUrGOvq5v93wQvBwr/WEsUnR8CIMsCmuMmm2rFLlNV"
+    crossorigin="anonymous"
+  ></script>
   <script src="https://gitdocumentatie.logius.nl/publicatie/respec/builds/respec-nlgov.js" class="remove" async></script>
   <link rel="stylesheet" type="text/css" href="media/css/style-im.css">
-  <link rel="stylesheet" href="media/css/modeldesk-respec.css?v=3" />
   <link rel="stylesheet" href="media/css/style.css" />
 </head>
 
@@ -28,7 +33,7 @@
   <section data-include-format="markdown" data-include="respec-docs/algemeen.md"></section>
   <section data-include-format="markdown" data-include="respec-docs/overzicht.md"></section>
 
-  <section data-include-format="markdown" data-include="data/model.md"></section>
+  <section data-include-format="markdown" data-include="data/model/index.md"></section>
   
   <!-- import door imvertor gegenereerde deel -->
   <!-- <div id="catalogus" data-include="data/disgeo-im-cat.respec.html" data-include-replace=true></div> -->

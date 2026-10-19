@@ -1,0 +1,32 @@
+{
+  "notes": {
+    "125cd721-c388-49ef-bc26-d9ee56964357": {
+      "name": "Domein Bestuurlijk gebied",
+      "intro": "md-notes/bestuurlijk-gebied/index.md"
+    },
+    "17390db1-034f-4011-8524-88c71f4e8dcb": {
+      "name": "BestuurlijkGebied",
+      "intro": "md-notes/bestuurlijk-gebied/objecttype/bestuurlijkgebied.md"
+    },
+    "dafddbaf-9e2a-4eda-88f7-9fae3a47362f": {
+      "name": "Gemeentegebied",
+      "intro": "md-notes/bestuurlijk-gebied/objecttype/gemeentegebied.md"
+    },
+    "823525ae-a440-407c-85b0-9cd63ca965e3": {
+      "name": "Landgebied",
+      "intro": "md-notes/bestuurlijk-gebied/objecttype/landgebied.md"
+    },
+    "648f403a-38a4-48c4-aed6-5d5fea93af3a": {
+      "name": "Provinciegebied",
+      "intro": "md-notes/bestuurlijk-gebied/objecttype/provinciegebied.md"
+    },
+    "2c12a6fd-133a-41cc-a258-e3bf4f9be41b": {
+      "name": "Veiligheidsregiogebied",
+      "intro": "md-notes/bestuurlijk-gebied/objecttype/veiligheidsregiogebied.md"
+    },
+    "041490e8-df1d-44c3-bf23-efd9c729684d": {
+      "name": "Waterschapsgebied",
+      "intro": "md-notes/bestuurlijk-gebied/objecttype/waterschapsgebied.md"
+    }
+  }
+}
