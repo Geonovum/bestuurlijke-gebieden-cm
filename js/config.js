@@ -7,10 +7,10 @@ let respecConfig = {
   //subtitle: "",
  
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
-  //specStatus: "wv",                   // Werkversie
+  specStatus: "wv",                   // Werkversie
   // specStatus: "cv",               // Consultatieversie
   // specStatus: "vv",               // Versie ter vaststelling
-  specStatus: "def",              // Vastgestelde versie
+  // specStatus: "def",              // Vastgestelde versie
   //specStatus: "basis",            // Basis Document
   
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
@@ -39,13 +39,13 @@ let respecConfig = {
   edDraftURI: "https://geonovum.github.io/bestuurlijke-gebieden-cm",
 
   //-- publishDate is verplicht -------------------------------------------------------
-  publishDate: "2026-03-24",
+  publishDate: "2026-10-20",
   //eventueel is het mogelijk een versienummer mee te geven, maar bij Geonovum werken we gewoonlijk alleen met datum als onderdeel van de permanente URI.
   publishVersion: [],
   //previousVersion: "0.0.1",
   
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 
-  previousPublishDate: "2026-02-04",
+  previousPublishDate: "2026-03-24",
   previousMaturity: "basis",
 
   preProcess: [window.respecMermaid.createFigures],
