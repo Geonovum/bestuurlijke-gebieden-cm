@@ -8,9 +8,14 @@
   <script src="https://cdn.jsdelivr.net/gh/digitalbazaar/respec-mermaid@1.0.1/dist/main.js" class="remove"></script>
   <script src="https://tools.geostandaarden.nl/respec/config/geonovum-config.js" class="remove"></script>
   <script src="js/config.js" class="remove"></script>
-  <script class="remove"> respecConfig = {...organisationConfig, ...respecConfig}</script>
-  <script>document.title = respecConfig.title</script>
-  <title>Default</title> <!--Informatiemodel Samenhangende Objecten-->
+  <script class="remove">
+    const mergedLocalBiblio = {...organisationConfig.localBiblio, ...respecConfig.localBiblio};
+    const mergedPostProcess = [...(organisationConfig.postProcess ?? []),...(respecConfig.postProcess ?? [])];
+    respecConfig = {...organisationConfig, ...respecConfig,
+      postProcess: mergedPostProcess,
+      localBiblio: mergedLocalBiblio};
+    document.title = respecConfig.title;
+  </script>
   <link rel="shortcut icon" type="image/x-icon" href="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.ico" />
   <!-- ModelDesk's runtime voor modeldiagrammen. Een script (geplaatst vóór ReSpec en ná het moment dat
    respecConfig definitief is, en zonder class="remove", zodat het behouden blijft in de gepubliceerde kopie. -->
